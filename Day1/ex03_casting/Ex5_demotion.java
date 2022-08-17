@@ -4,7 +4,7 @@ public class Ex5_demotion {
 	public static void main(String[] args) {
 		
 		// Casting
-		// 2) demotion casting: ÀÛÀº ÀÚ·áÇü¿¡ Å« ÀÚ·áÇüÀÌ ´ëÀÔµÇ´Â °Í(ÀÚµ¿ X)
+		// 2) demotion casting: ì‘ì€ ìë£Œí˜•ì— í° ìë£Œí˜•ì´ ëŒ€ì…ë˜ëŠ” ê²ƒ(ìë™ X)
 		char c = 'D';
 		int n = c+1;
 		c = (char)n;
@@ -14,5 +14,11 @@ public class Ex5_demotion {
 		c = (char)n;
 		System.out.println(c);
 		
-	}
+		float f = 5.5f;		//4.byte
+		int i = 0;		//4byte
+		i = (int)f;
+		System.out.println(i);
+		
+		
+	}//main
 }
