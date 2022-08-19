@@ -2,15 +2,15 @@ package ex04_work;
 
 public class Ex1_work {
 	public static void main(String[] args) {
-		// ±âº»ÀÚ·áÇü°ú ¿¬»êÀÚ¸¦ »ç¿ëÇÑ ¹®Á¦
+		// ê¸°ë³¸ìžë£Œí˜•ê³¼ ì—°ì‚°ìžë¥¼ ì‚¬ìš©í•œ ë¬¸ì œ
 		/*
-		 °ú¼ö¿øÀÌ ÀÖ´Ù.
-		 ¹è, »ç°ú, ¿À·»Áö¸¦ Å°¿ì°í ÀÖ´Âµ¥ °¢ °úÀÏÀÇ ÇÏ·ç »ý»ê·®Àº
-		 5, 7, 5°³
-		 °ú¼ö¿ø¿¡¼­ ÇÏ·ç¿¡ »ý»êµÇ´Â °úÀÏÀÇ ÃÑ °¹¼ö¸¦ Ãâ·ÂÇÏ°í
-		 ½Ã°£´ç Æò±Õ »ý»ê°¹¼ö¸¦ ¼Ò¼öÁ¡ 2ÀÚ¸®±îÁö¸¸ Ãâ·Â.
-		 (´Ü, °úÀÏÀÇ °¹¼ö¿Í ÇÏ·ç»ý»ê·®À» ÀúÀåÇÏ´Â º¯¼ö´Â int,
-		 ½Ã°£ ´ç Æò±ÕÀ» ÀúÀåÇÏ´Â º¯¼ö´Â floatÀ¸·Î ¸¸µå½Ã¿À)
+		 ê³¼ìˆ˜ì›ì´ ìžˆë‹¤.
+		 ë°°, ì‚¬ê³¼, ì˜¤ë Œì§€ë¥¼ í‚¤ìš°ê³  ìžˆëŠ”ë° ê° ê³¼ì¼ì˜ í•˜ë£¨ ìƒì‚°ëŸ‰ì€
+		 5, 7, 5ê°œ
+		 ê³¼ìˆ˜ì›ì—ì„œ í•˜ë£¨ì— ìƒì‚°ë˜ëŠ” ê³¼ì¼ì˜ ì´ ê°¯ìˆ˜ë¥¼ ì¶œë ¥í•˜ê³ 
+		 ì‹œê°„ë‹¹ í‰ê·  ìƒì‚°ê°¯ìˆ˜ë¥¼ ì†Œìˆ˜ì  2ìžë¦¬ê¹Œì§€ë§Œ ì¶œë ¥.
+		 (ë‹¨, ê³¼ì¼ì˜ ê°¯ìˆ˜ì™€ í•˜ë£¨ìƒì‚°ëŸ‰ì„ ì €ìž¥í•˜ëŠ” ë³€ìˆ˜ëŠ” int,
+		 ì‹œê°„ ë‹¹ í‰ê· ì„ ì €ìž¥í•˜ëŠ” ë³€ìˆ˜ëŠ” floatìœ¼ë¡œ ë§Œë“œì‹œì˜¤)
 		 */
 		
 		int pear = 5;
@@ -20,6 +20,7 @@ public class Ex1_work {
 		System.out.println(total);
 		
 		float h_total = (float)total/24;
+		float avg = total / 24f;
 		System.out.printf("%.2f",h_total);
 		
 		
